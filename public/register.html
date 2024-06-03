@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set karakter encoding menjadi UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Konfigurasi viewport untuk desain responsif -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Judul dari halaman web -->
+    <title>Register</title>
+    <!-- Menghubungkan dengan stylesheet eksternal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="register-page">
+    <!-- Kontainer untuk halaman registrasi -->
+    <div class="register-container">
+        <!-- Judul halaman registrasi -->
+        <h1>Register</h1>
+        <!-- Formulir untuk registrasi -->
+        <form id="registerForm">
+            <!-- Input untuk username -->
+            <input type="text" id="username" placeholder="Username" required>
+            <!-- Input untuk password -->
+            <input type="password" id="password" placeholder="Password" required>
+            <!-- Tombol untuk submit registrasi -->
+            <button type="submit">Register</button>
+        </form>
+        <!-- Teks untuk mengarahkan pengguna untuk login jika sudah memiliki akun -->
+        <p>Already have an account? <a href="login.html">Login here</a></p>
+    </div>
+    <!-- Memuat script JavaScript untuk logika interaksi -->
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Styles for index.html */
+.index-page header {
+    background: linear-gradient(135deg, #31b3ac, #205e97);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.index-page main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: url('images/alam.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.index-page .intro {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.index-page .actions {
+    display: flex;
+    gap: 10px;
+}
+
+.index-page .btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #b30b0b;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.index-page .btn:hover {
+    background-color: #45a049;
+}
+
+.index-page footer {
+    background: linear-gradient(135deg, #143a4b, #1f468e);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* Styles for login.html and register.html */
+.login-page, .register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('images/alam.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.login-page .login-container, .register-page .register-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-page form, .register-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-page input, .register-page input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center; /* Placeholder di tengah */
+}
+
+.login-page button, .register-page button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    width: 80%;
+}
+
+.login-page button:hover, .register-page button:hover {
+    background-color: #45a049;
+}
+
+.login-page a, .register-page a {
+    color: #4CAF50;
+}
+
+.login-page a:hover, .register-page a:hover {
+    text-decoration: underline;
+}
